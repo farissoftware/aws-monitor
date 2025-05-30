@@ -23,4 +23,4 @@ async function runMonitoring() {
 
 // Run every 5 minutes
 runMonitoring();
-setInterval(runMonitoring, 5 * 1 * 1000);
+setInterval(runMonitoring, 60 * 1000);
